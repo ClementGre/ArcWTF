@@ -43,8 +43,8 @@
 
   /* Variables used for the rounded corners. */
   #main-window:not([chromehidden~="toolbar"]) {
-    --uc-tweak-rounded-corners-padding: 10px;
-    --uc-tweak-rounded-corners-radius: 8px;
+    --uc-tweak-rounded-corners-padding: 3px;
+    --uc-tweak-rounded-corners-radius: 3px;
     --uc-tweak-rounded-corners-shadow:
       0 -.8px 0 0 rgb(0 0 0 / 0.02),
       0 0.5px 1px 1px rgb(0 0 0 / 0.06),
@@ -82,7 +82,7 @@
     --uc-tweak-rounded-corners-radius: 0;
     --uc-tweak-rounded-corners-shadow: unset;
   }
-  
+
   /* Apply rounded corners to the browser container. */
   #appcontent .browserStack {
     margin-inline-start: var(--uc-tweak-rounded-corners-padding) !important;
@@ -115,7 +115,7 @@
   #statuspanel {
     overflow: hidden;
   }
-    
+
  /* Devtools window when docked to the left or right. */
   .devtools-toolbox-side-iframe {
     margin-block-end: var(--uc-tweak-rounded-corners-padding) !important;
